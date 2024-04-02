@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(242, 235, 235);
+    background: black;
+}
+
+#country {
+    width: 200px;
+    font-size: 15px;
+}
+
+h1{
+    margin: 0 auto;
+    border: 5px solid rgb(242, 235, 235);
+    font-size: 40px;
+    width: 400px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#projectBox {
+    margin: 10px auto;
+    padding-left: 20px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 30px;
+}
+
+#displayBox {
+    margin: 0 auto;
+    border: 5px solid rgb(242, 235, 235);;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    list-style: none;
+}
+
+#display {
+    grid-column: 2/3;
+}
+
+#countryBox {
+    grid-column: 1/2;
+}
+
+#dateBox {
+    grid-column: 2/3;
+}
+
+#getStats {
+    background: rgb(242, 235, 235);
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    width: 100px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+#getStats:active {
+    box-shadow: 0 2px #666;
+}
+
+
